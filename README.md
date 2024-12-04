@@ -10,10 +10,10 @@ This project is an end-to-end test suite built using **Playwright** with **TypeS
 
 ### **1. Clone the Repository**
 
-Clone the repository to your local machine using SSH:
+Clone the repository to your local machine using HTTPS:
 
 ```
-git clone git@github.com:RustamKhairullin/loop-technical-evaluation-2024.git
+git clone https://github.com/RustamKhairullin/loop-technical-evaluation-2024.git
 ```
 
 Navigate to the project folder:
