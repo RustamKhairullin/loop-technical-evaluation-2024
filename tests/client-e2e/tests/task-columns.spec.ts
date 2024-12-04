@@ -12,7 +12,6 @@ testData.testCases.forEach(({ projectName, column, taskName, tags }) => {
       .locator("..");
     const taskLocator = columnLocator.locator(`h3:has-text("${taskName}")`);
     await login(page);
-    await page.pause()
 
     await test.step(`Navigate to "${projectName}" project`, async () => {
       await page.locator(`button:has-text("${projectName}")`).click();
