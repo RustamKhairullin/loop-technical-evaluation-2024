@@ -1,0 +1,22 @@
+{
+  "name": "loop-technical-evaluation-2024",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test --project=chromium --workers=1",
+    "test-headed": "npx playwright test --headed --project=chromium --workers=1",
+    "test-parallel": "npx playwright test --project=chromium",
+    "report": "npx playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^22.10.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
+}

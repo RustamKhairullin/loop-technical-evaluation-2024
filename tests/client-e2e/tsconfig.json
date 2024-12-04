@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "allowJs": true,
+      "resolveJsonModule": true, // Enable JSON module imports
+      "esModuleInterop": true,  // Ensure compatibility with CommonJS modules
+      "baseUrl": ".",
+      "paths": {
+        "client-e2e/config": ["./environment.config.ts"],
+        "client-e2e/*": ["./src/*"]
+      }
+    }
+  }
+  
