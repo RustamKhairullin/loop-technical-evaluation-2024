@@ -73,6 +73,7 @@ npm run report
 ```
 
 ## **Project Structure**
+```
 loop-technical-evaluation-2024/
 ├── tests/                    
 │   ├── client-e2e/            # End-to-end test suite
@@ -89,5 +90,4 @@ loop-technical-evaluation-2024/
 ├── package.json               # Project dependencies and npm scripts
 ├── playwright.config.ts       # Playwright configuration
 ├── README.md                  # Documentation
-
-
+```
