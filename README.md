@@ -72,6 +72,12 @@ Opens the Playwright HTML report in your default browser.
 npm run report
 ```
 
+#### **4. Run tests in debug mode using Chromium with a single worker:**
+
+```
+npm run test-debug
+```
+
 ## **Project Structure**
 ```
 loop-technical-evaluation-2024/
